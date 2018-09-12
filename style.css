@@ -32,3 +32,18 @@ h2 {
 	text-transform: uppercase;
 	color: #266B97;
 }
+
+.email {
+	height:35px;
+	width: 235px;
+	padding-left: 4px;
+	border-radius: 4px;
+	background-color: #ffffff;
+}
+.btn {
+	height:35px;
+	width: 80px;
+	margin-left: 10px;
+	border-radius: 4px;
+	background-color: #f5a62a;
+}

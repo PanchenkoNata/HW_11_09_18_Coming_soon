@@ -1,71 +1,86 @@
+@font-face {
+    font-family: "HouschkaPro";
+    src: url(fonts/HouschkaPro.otf); /* Путь к файлу со шрифтом */
+   }
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 .container {
 	width: 980px;
 	height: 800px;
 	background-color: #b9d6ef;
-	margin: auto;
+	margin-top: 20px;
+	margin-left: 20px;
 	position: relative;
+	font-family: "HouschkaPro"
 }
 .posAbs {
 	position: absolute;
 }
 
 .cloud1 {
-	left: 40px;
+	left: 512px;
 	z-index: 1;
 }
 .cloud2 {
-	left: 460px;
+	left: 131px;
 	z-index: 2;
 }
 
 .info {
-	text-align: center;
-	top: 160px;
-	left: 160px;
+	top: 95px;
+    /*left: 189px;*/
 	z-index: 3;
 }
 h1 {
-	font-size: 70px;
-	text-transform: uppercase;
+	font-size: 72px;
+    text-transform: uppercase;
 	color: #fefefe;
+	margin-left: 242px;
 }
 h2 {
-	font-size: 30px;
+	font-size: 15px;
 	text-transform: uppercase;
 	color: #266B97;
+	margin-left: 346px;
+    margin-top: 2px;
 }
-
+form {
+	margin-left: 319px;
+    margin-top: 18px;
+}
 .email {
-	height:35px;
-	width: 235px;
-	padding-left: 4px;
+	height: 37px;
+    width: 240px;
+    padding-left: 9px;
 	border-radius: 4px;
 	background-color: #ffffff;
 }
 .btn {
-	height:35px;
-	width: 80px;
-	margin-left: 10px;
+	font-size: 14px;
+	font-family: "HouschkaPro";
+	color: #ffffff;
+	height:37px;
+	width: 92px;
+	margin-left: 6px;
 	border-radius: 4px;
 	background-color: #f5a62a;
 }
 
 .sea {
-	top: 460px;
+	top: 464px;
 	z-index: 10;
 }
 .ship {
-	top: 440px;
-	left: 200px;
+	top: 452px;
+    left: 301px;
 	z-index: 20;
 }
 .ice {
-	top: 270px;
-	left:250px;
-	z-index: 30;
+	top: 279px;
+	left: 326px;
+    z-index: 30;
 }

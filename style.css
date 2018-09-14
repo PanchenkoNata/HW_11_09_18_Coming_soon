@@ -95,6 +95,39 @@ form {
 }
 
 
+.crono ul {
+	list-style: none;
+	margin-left: 344px;
+    margin-top: -243px;
+}
+.crono li {
+	display: inline-block;
+	text-align: center;
+}
+.hours {
+	margin: 0 30px;
+}
+.crono div {
+	font-size: 24px;
+	color: #81adcd;
+	height: 70px;
+	width: 70px;
+	margin: 0 auto;
+	background-color: #b9d6ef;
+	border-radius: 35px;		
+}
+.crono span {
+	display: inline-block;
+	padding-top: 20px;
+
+}
+.crono p {
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #f3f3f3;
+	margin-top: 4px;
+	/*text-align: center;*/
+}
 
 
 

@@ -76,7 +76,10 @@ form {
 	border: solid 1px #fbc641;
 	border-radius: 2px;
 }
-
+.ship {
+	padding-top: 120px;
+    margin-left: 301px;
+}
 
 
 

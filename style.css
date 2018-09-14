@@ -2,7 +2,7 @@
     font-family: "HouschkaProBold"; 
     src: url(fonts/HouschkaPro-Bold.otf); /* Путь к файлу со шрифтом */
    }
-   @font-face {
+@font-face {
     font-family: "HouschkaProMedium"; 
     src: url(fonts/HouschkaPro-Medium.otf); /* Путь к файлу со шрифтом */
    }
@@ -14,118 +14,28 @@
 
 .container {
 	width: 980px;
-	height: 800px;
+	/*height: 800px;*/
 	background-color: #b9d6ef;
 	margin-top: 20px;
 	margin-left: 20px;
-	position: relative;
 	font-family: "HouschkaProBold";
 }
-.posAbs {
-	position: absolute;
+
+.sky {
+	height: 460px;
+	border-bottom: solid 6px #daecf1;
 }
 
-.cloud1 {
-	left: 512px;
-	z-index: 1;
-}
-.cloud2 {
-	left: 131px;
-	z-index: 2;
-}
-
-.info {
-	top: 95px;
-    /*left: 189px;*/
-	z-index: 3;
-}
-h1 {
-	font-size: 72px;
-    text-transform: uppercase;
-	color: #fefefe;
-	margin-left: 242px;
-}
-h2 {
-	font-size: 14px;
-	text-transform: uppercase;
-	font-family: "HouschkaProMedium";
-	color: #266B97;
-	margin-left: 347px;
-    margin-top: 2px;
-}
-form {
-	margin-left: 319px;
-    margin-top: 19px;
-}
-.email {
-	font-size: 13px;
-    font-family: "Arial";
-    letter-spacing: -0.45px;
-	height: 37px;
-    width: 240px;
-    padding-left: 9px;
-	border-radius: 4px;
-	background-color: #ffffff;
-}
-.btn {
-	font-size: 14px;
-	font-family: "HouschkaPro";
-	letter-spacing: -0.6px;
-	color: #ffffff;
-	height:37px;
-	width: 93px;
-	margin-left: 5px;
-	border-radius: 4px;
-	background-color: #f5a62a;
-}
 
 .sea {
-	top: 464px;
-	z-index: 10;
-}
-.ship {
-	top: 452px;
-    left: 301px;
-	z-index: 20;
-}
-.ice {
-	top: 279px;
-	left: 326px;
-    z-index: 30;
+	height: 332px;
+	border-top: solid 9px  #327dad;
+	background-color: #266b97;
+	margin-top: -2px;
 }
 
-.crono {
-	top: 530px;
-	z-index: 40;
-}
-.crono ul {
-	height: 97px;
-	width: 348px;
-	list-style: none;
-	margin-left: 343px;
-}
-.crono li {
-	display: inline-block;
-	text-align: center;
-	margin-right: 30px;
-}
-.hours div {
-	margin-left: 50px;
-}
-.crono div {
-	font-size: 24px;
-	color: #81adcd;
-	height: 70px;
-	width: 70px;/*
-	margin: 0 auto;*/
-	background-color: #b9d6ef;
-	border-radius: 35px;
-	display: table-cell;
-	vertical-align: middle;	
-}
-.crono p {
-	font-size: 24px;
-	text-transform: uppercase;
-	color: #f3f3f3;
-	margin-top: 4px;
-}
+
+
+
+
+

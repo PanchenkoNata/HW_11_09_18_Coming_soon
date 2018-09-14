@@ -63,7 +63,7 @@ form {
 }
 .btn {
 	font-size: 14px;
-	font-family: "HouschkaProBold";
+	/*font-family: "HouschkaProBold";*/
 	text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
 	letter-spacing: -0.3px;
 	color: #ffffff;
@@ -105,28 +105,27 @@ form {
 	text-align: center;
 }
 .hours {
-	margin: 0 30px;
+	margin: 0 27px 0 32px;
 }
 .crono div {
 	font-size: 24px;
-	color: #81adcd;
+	color: #266b97;
 	height: 70px;
 	width: 70px;
 	margin: 0 auto;
 	background-color: #b9d6ef;
-	border-radius: 35px;		
+	border-radius: 50%;		
 }
 .crono span {
+	font-family: "HouschkaProMedium";
 	display: inline-block;
-	padding-top: 20px;
-
+	padding-top: 21px;
 }
 .crono p {
 	font-size: 24px;
 	text-transform: uppercase;
 	color: #f3f3f3;
 	margin-top: 4px;
-	/*text-align: center;*/
 }
 
 

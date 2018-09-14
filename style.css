@@ -22,17 +22,17 @@
 }
 
 .sky {
-	height: 460px;
+	height: 470px;
 	border-bottom: solid 6px #daecf1;
 }
 .info {
-	margin-top: 95px;
+	margin-top: 30px;
     
 }
 h1 {
 	font-size: 72px;
     text-transform: uppercase;
-    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.17);
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.17);
 	color: #fefefe;
 	padding-left: 242px;
 }
@@ -42,20 +42,19 @@ h2 {
 	font-family: "HouschkaProMedium";
 	color: #266B97;
 	padding-left: 347px;
-    padding-top-top: 2px;
+    padding-top: 2px;
 }
 form {
 	padding-left: 319px;
-    padding-top: 19px;
+    padding-top: 18px;
 }
 .email {
-	font-size: 13px;
+	font-size: 12px;
     font-family: "Arial";
-    letter-spacing: -0.45px;
     color: #808080;
 	height: 37px;
     width: 240px;
-    padding-left: 9px;
+    padding-left: 10px;
 	border-radius: 4px;
 	background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
 	background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
@@ -66,18 +65,18 @@ form {
 	font-size: 14px;
 	font-family: "HouschkaProBold";
 	text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
-	letter-spacing: -0.6px;
+	letter-spacing: -0.3px;
 	color: #ffffff;
-	height:38px;
-	width: 94px;
+	height:37px;
+	width: 93px;
 	margin-left: 5px;
-
+	padding-left: 1px;
 	background-image: url(images/button.gif);
 	border: solid 1px #fbc641;
 	border-radius: 2px;
 }
 .ship {
-	padding-top: 120px;
+	padding-top: 198px;
     margin-left: 301px;
 }
 
@@ -91,8 +90,8 @@ form {
 	margin-top: -2px;
 }
 .ice {
-	margin-top: -190px;
-	margin-left: 326px;
+	margin-top: -198px;
+    margin-left: 326px;
 }
 
 

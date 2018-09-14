@@ -25,6 +25,60 @@
 	height: 460px;
 	border-bottom: solid 6px #daecf1;
 }
+.info {
+	margin-top: 95px;
+    
+}
+h1 {
+	font-size: 72px;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.17);
+	color: #fefefe;
+	padding-left: 242px;
+}
+h2 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: "HouschkaProMedium";
+	color: #266B97;
+	padding-left: 347px;
+    padding-top-top: 2px;
+}
+form {
+	padding-left: 319px;
+    padding-top: 19px;
+}
+.email {
+	font-size: 13px;
+    font-family: "Arial";
+    letter-spacing: -0.45px;
+    color: #808080;
+	height: 37px;
+    width: 240px;
+    padding-left: 9px;
+	border-radius: 4px;
+	background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
+}
+.btn {
+	font-size: 14px;
+	font-family: "HouschkaProBold";
+	text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
+	letter-spacing: -0.6px;
+	color: #ffffff;
+	height:38px;
+	width: 94px;
+	margin-left: 5px;
+
+	background-image: url(images/button.gif);
+	border: solid 1px #fbc641;
+	border-radius: 2px;
+}
+
+
+
 
 
 .sea {

@@ -96,18 +96,24 @@ form {
 }
 
 .ship {
-	top: -2.6vw;
-    left: 30.1vw;
+	border: solid 1px #327dad;
+	width: 4.9vw;
+    top: -2.3vw;
+    left: 28.5vw;
+    background-size: cover;
     position: absolute;
+}
+.ship img {
+	width: 100%;
 }
 .ice img {
 	width: 100%;
 }
 .ice {
-	width: 36.2vw;
-	border: solid 1px #327dad;
-	margin-top: -21.8vw;
-    margin-left: 32.6vw;
+	width: 33.1vw;/*
+    border: solid 1px #327dad;*/
+    margin-top: -19.8vw;
+    margin-left: 30.9vw;
 }
 
 

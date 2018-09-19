@@ -22,7 +22,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	font-family: "HouschkaProBold";
-	border: solid 3px red;
+	/*border: solid 3px red;*/
 }
 
 .sky {
@@ -30,7 +30,9 @@
 	border-bottom: solid 6px #daecf1;
 }
 .clouds img {
-	width: 100%;
+	width: 100%;  
+	margin-left: -1.7vw;
+    margin-top: -0.1vw;
 }
 .info {
 	margin-top: 3vw;
@@ -40,19 +42,21 @@ h1 {
 	font-size: 7.2vw;
     text-transform: uppercase;
     text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.17);
-	color: #fefefe;/*
-	padding-left: 242px;*/
+	color: #fefefe;
+	margin-left: -0.7vw;
 }
 h2 {
 	font-size: 1.4vw;
 	text-transform: uppercase;
 	font-family: "HouschkaProMedium";
 	color: #266B97;
-    padding-top: 0.2vw;
+    padding-top: 0.4vw;
+	margin-left: -3.4vw;
 }
 form {
 	margin: 0 auto;
-    padding-top: 1.8vw;
+    padding-top: 1.7vw;
+    margin-left: -3.3vw;
 }
 .email {
 	font-size: 1.2vw;
@@ -75,27 +79,42 @@ form {
 	color: #ffffff;
 	height:3.7vw;
 	width: 9.3vw;
-	margin-left: 0.5vw;
+	margin-left: 0.8vw;
 	padding-left: 0.1vw;
-	background-image: url(images/button.gif);
+	background: url(images/button.gif) no-repeat ;
+	background-size: cover;
 	border: solid 1px #fbc641;
 	border-radius: 2px;
 }
-.ship {
-	padding-top: 19.8px;
-    margin-left: 301px;
-}
 
 .sea {
-	height: 46.7vh;
-	border-top: solid 9px  #327dad;
+	height: 33.2vw;
+	border-top: solid 9px #327dad;
 	background-color: #266b97;
-	margin-top: -2px;
+	margin-top: -0.2vw;
+	position: relative;
+}
+
+.ship {
+	top: -2.6vw;
+    left: 30.1vw;
+    position: absolute;
+}
+.ice img {
+	width: 100%;
 }
 .ice {
-	margin-top: -198px;
-    margin-left: 326px;
+	width: 36.2vw;
+	border: solid 1px #327dad;
+	margin-top: -21.8vw;
+    margin-left: 32.6vw;
 }
+
+
+
+
+
+
 
 
 .crono ul {

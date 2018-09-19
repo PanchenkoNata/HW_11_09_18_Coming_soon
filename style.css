@@ -14,47 +14,53 @@
 }
 
 .container {
-	width: 980px;
+	width: 100vw;
+}
+.content {
+	width: 98vw;
 	background-color: #b9d6ef;
-	/*margin: 0 auto;*/
-	margin: 20px 0 0 20px;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: "HouschkaProBold";
+	border: solid 3px red;
 }
 
 .sky {
-	height: 470px;
+	height: 47vw;
 	border-bottom: solid 6px #daecf1;
 }
+.clouds img {
+	width: 100%;
+}
 .info {
-	margin-top: 30px;
-    
+	margin-top: 3vw;
+	text-align: center;
 }
 h1 {
-	font-size: 72px;
+	font-size: 7.2vw;
     text-transform: uppercase;
-    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.17);
-	color: #fefefe;
-	padding-left: 242px;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.17);
+	color: #fefefe;/*
+	padding-left: 242px;*/
 }
 h2 {
-	font-size: 14px;
+	font-size: 1.4vw;
 	text-transform: uppercase;
 	font-family: "HouschkaProMedium";
 	color: #266B97;
-	padding-left: 347px;
-    padding-top: 2px;
+    padding-top: 0.2vw;
 }
 form {
-	padding-left: 319px;
-    padding-top: 18px;
+	margin: 0 auto;
+    padding-top: 1.8vw;
 }
 .email {
-	font-size: 12px;
+	font-size: 1.2vw;
     font-family: "Arial";
     color: #808080;
-	height: 37px;
-    width: 240px;
-    padding-left: 10px;
+	height: 3.7vw;
+    width: 24vw;
+    padding-left: 1vw;
 	border-radius: 4px;
 	background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
 	background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
@@ -62,26 +68,26 @@ form {
 	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
 }
 .btn {
-	font-size: 14px;
+	font-size: 1.4vw;
 	font-family: "HouschkaProBold";
 	text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
-	letter-spacing: -0.3px;
+	letter-spacing: -0.03vw;
 	color: #ffffff;
-	height:37px;
-	width: 93px;
-	margin-left: 5px;
-	padding-left: 1px;
+	height:3.7vw;
+	width: 9.3vw;
+	margin-left: 0.5vw;
+	padding-left: 0.1vw;
 	background-image: url(images/button.gif);
 	border: solid 1px #fbc641;
 	border-radius: 2px;
 }
 .ship {
-	padding-top: 198px;
+	padding-top: 19.8px;
     margin-left: 301px;
 }
 
 .sea {
-	height: 332px;
+	height: 46.7vh;
 	border-top: solid 9px  #327dad;
 	background-color: #266b97;
 	margin-top: -2px;

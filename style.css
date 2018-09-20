@@ -12,22 +12,19 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+body {
+	margin: 0;
+}
 
 .container {
 	width: 100vw;
-}
-.content {
-	width: 98vw;
 	background-color: #b9d6ef;
-	margin-left: auto;
-	margin-right: auto;
 	font-family: "HouschkaProBold";
-	/*border: solid 3px red;*/
 }
 
 .sky {
 	height: 47vw;
-	border-bottom: solid 6px #daecf1;
+	border-bottom: solid 0.6vw #daecf1;
 }
 .clouds img {
 	width: 100%;  
@@ -89,19 +86,19 @@ form {
 
 .sea {
 	height: 33.2vw;
-	border-top: solid 9px #327dad;
+	border-top: solid 0.9vw #327dad;
 	background-color: #266b97;
 	margin-top: -0.2vw;
 	position: relative;
 }
 
 .ship {
-	border: solid 1px #327dad;
 	width: 4.9vw;
     top: -2.3vw;
     left: 28.5vw;
     background-size: cover;
     position: absolute;
+    /*border: solid 1px #327dad;*/
 }
 .ship img {
 	width: 100%;
@@ -110,36 +107,28 @@ form {
 	width: 100%;
 }
 .ice {
-	width: 33.1vw;/*
-    border: solid 1px #327dad;*/
+	width: 33.1vw;
     margin-top: -19.8vw;
     margin-left: 30.9vw;
 }
 
-
-
-
-
-
-
-
 .crono ul {
 	list-style: none;
-	margin-left: 344px;
-    margin-top: -243px;
+	margin-left: 32.8vw;
+    margin-top: -24.3vw;
 }
 .crono li {
 	display: inline-block;
 	text-align: center;
 }
 .hours {
-	margin: 0 27px 0 32px;
+	margin: 0 3vw 0 3.2vw;
 }
 .crono div {
-	font-size: 24px;
+	font-size: 2.4vw;
 	color: #266b97;
-	height: 70px;
-	width: 70px;
+	height: 7vw;
+	width: 7vw;
 	margin: 0 auto;
 	background-color: #b9d6ef;
 	border-radius: 50%;		
@@ -147,13 +136,13 @@ form {
 .crono span {
 	font-family: "HouschkaProMedium";
 	display: inline-block;
-	padding-top: 21px;
+	padding-top: 2.1vw;
 }
 .crono p {
-	font-size: 24px;
+	font-size: 2.4vw;
 	text-transform: uppercase;
 	color: #f3f3f3;
-	margin-top: 4px;
+	margin-top: 0.5vw;
 }
 
 

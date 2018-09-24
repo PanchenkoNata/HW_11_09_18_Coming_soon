@@ -16,7 +16,7 @@
 .container {
 	width: 100vw;
 	height: 100vh;
-	background-color: #266b97;
+	/*background-color: #266b97;*/
 	position: relative;
 	font-family: "HouschkaProBold";
 }
@@ -26,7 +26,7 @@
 	background-color: #b9d6ef;
 	border-bottom: solid 0.6vmin #daecf1;
 	/*position: absolute;*/
-}*/
+
 .content {
 	width: 100vmin;
 	margin: 0 auto;
@@ -38,8 +38,8 @@
 	border-bottom: solid 0.6vmin #daecf1;
 }
 .clouds {
-	width: 100vmin;
-	margin: 0 auto;
+	/*width: 100vmin;
+	margin: 0 auto;*/
 }
 .clouds img {
 	width: 100%;
@@ -47,6 +47,8 @@
     margin-top: 0vmin;*/
 }
 .info {
+	/*width: 100vmin;
+	margin: 0 auto;*/
 	margin-top: 3.2vmin;
 	text-align: center;
 }
@@ -111,6 +113,7 @@ form {
 }
 
 .ship {
+	
 	width: 4.9vmin;
     top: -2.6vmin;
     left: 30.5vmin;
@@ -119,23 +122,21 @@ form {
 }
 .ship img {
 	width: 100%;
+
 }
 
 .ice {
-	width: 100vmin;
-	margin: 0 auto;
+	/*width: 100vmin;
+	margin: 0 auto;*/
 }
 .ice img {
-	/*margin-top: -19.8vmin;
-    margin-left: 30.9vmin;*/
-	/*width: 100%;*/
 	width: 33.1vmin;
     margin-top: -20vmin;
     margin-left: 33.3vmin;
 }
 .crono { 
-	width: 100vmin;
-	margin: 0 auto;
+	/*width: 100vmin;
+	margin: 0 auto;*/
 }
 .crono ul {
 	list-style: none;

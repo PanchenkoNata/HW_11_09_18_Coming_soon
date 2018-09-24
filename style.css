@@ -12,61 +12,70 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-body {
-	margin: 0;
-}
 
 .container {
 	width: 100vw;
 	height: 100vh;
 	background-color: #266b97;
+	position: relative;
 	font-family: "HouschkaProBold";
+}
+.skyback {
+	height: 47vmin;
+	width: 100%;
+	background-color: #b9d6ef;
+	border-bottom: solid 0.6vmin #daecf1;
+	position: absolute;
+}
+.content {
+	width: 100vmin;
+	margin: 0 auto;
 }
 
 .sky {
-	height: 47vw;
+	height: 47vmin;
 	background-color: #b9d6ef;
-	border-bottom: solid 0.6vw #daecf1;
+	border-bottom: solid 0.6vmin #daecf1;
 }
 .clouds img {
 	width: 100%;  
-	margin-left: -2.6vw;
-    margin-top: -0.4vw;
+	margin-left: -2.6vmin;
+    margin-top: -0.4vmin;
 }
 .info {
-	margin-top: 3vw;
+	margin-top: 3vmin;
 	text-align: center;
 }
 h1 {
-	font-size: 7.2vw;
+	font-size: 7.2vmin;
     text-transform: uppercase;
-    letter-spacing: 0.04vw;
+    letter-spacing: 0.04vmin;
     text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.17);
 	color: #fefefe;
-	margin-left: -2.7vw;
+	margin-left: -2.7vmin;
 }
 h2 {
-	font-size: 1.4vw;
+	font-size: 1.4vmin;
     text-transform: uppercase;
-    letter-spacing: 0.01vw;
+    letter-spacing: 0.01vmin;
     font-family: "HouschkaProMedium";
     color: #266B97;
-    padding-top: 0.4vw;
-    margin-left: -5.5vw;
+    padding-top: 0.4vmin;
+    margin-left: -5.5vmin;
 }
 form {
 	margin: 0 auto;
-    padding-top: 1.9vw;
-    margin-left: -5.4vw;
+    padding-top: 1.9vmin
+    margin-left: -5.4vmin;
 }
 .email {
-	font-size: 1.3vw;
+	font-size: 1.3vmin;
     font-family: "Arial";
-    letter-spacing: -0.04vw;
+    letter-spacing: -0.04vmin;
     color: #808080;
-    height: 3.7vw;
-    width: 24.3vw;
-    padding-left: 1vw;
+    height: 3.7vmin;
+    width: 24.3vmin;
+    padding-left: 1vmin;
     border-radius: 4px;
 	background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
 	background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
@@ -74,15 +83,15 @@ form {
 	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
 }
 .btn {
-	font-size: 1.4vw;
+	font-size: 1.4vmin;
 	font-family: "HouschkaProBold";
 	text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
-	letter-spacing: -0.03vw;
+	letter-spacing: -0.03vmin;
 	color: #ffffff;
-	height:3.7vw;
-	width: 9.3vw;
-	margin-left: 0.7vw;
-	padding-left: 0.1vw;
+	height:3.7vmin;
+	width: 9.3vmin;
+	margin-left: 0.7vmin;
+	padding-left: 0.1vmin;
 	background: url(images/button.gif) no-repeat ;
 	background-size: cover;
 	border: solid 1px #fbc641;
@@ -90,49 +99,52 @@ form {
 }
 
 .sea {
-	height: 33.2vw;
-	border-top: solid 0.9vw #327dad;
+	height: 33.2vmin;
+	border-top: solid 0.9vmin #327dad;
 	background-color: #266b97;
-	margin-top: -0.15vw;
+	margin-top: -0.15vmin;
 	position: relative;
 }
 
 .ship {
-	width: 4.9vw;
-    top: -2.3vw;
-    left: 28.5vw;
+	width: 4.9vmin;
+    top: -2.3vmin;
+    left: 28.5vmin;
     background-size: cover;
     position: absolute;
 }
 .ship img {
 	width: 100%;
 }
-.ice img {
-	width: 100%;
-}
-.ice {
-	width: 33.1vw;
-    margin-top: -19.8vw;
-    margin-left: 30.9vw;
-}
 
+.ice {
+	width: 33.1vmin;
+    /*margin-top: -19.8vmin;
+    margin-left: 30.9vmin;*/
+}
+.ice img {
+	margin-top: -19.8vmin;
+    margin-left: 30.9vmin;
+	width: 100%;
+
+}
 .crono ul {
 	list-style: none;
-    margin-left: 32.7vw;
-    margin-top: -24.4vw;
+    margin-left: 32.7vmin;
+    margin-top: -24.4vmin;
 }
 .crono li {
 	display: inline-block;
 	text-align: center;
 }
 .hours {
-	margin: 0 3vw 0 3.2vw;
+	margin: 0 3vmin 0 3.2vmin;
 }
 .crono div {
-	font-size: 2.4vw;
+	font-size: 2.4vmin;
 	color: #266b97;
-	height: 7vw;
-	width: 7vw;
+	height: 7vmin;
+	width: 7vmin;
 	margin: 0 auto;
 	background-color: #b9d6ef;
 	border-radius: 50%;		
@@ -140,13 +152,13 @@ form {
 .crono span {
 	font-family: "HouschkaProMedium";
 	display: inline-block;
-	padding-top: 2.1vw;
+	padding-top: 2.1vmin;
 }
 .crono p {
-	font-size: 2.4vw;
+	font-size: 2.4vmin;
 	text-transform: uppercase;
 	color: #f3f3f3;
-	margin-top: 0.5vw;
+	margin-top: 0.5vmin;
 }
 
 

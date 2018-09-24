@@ -20,39 +20,43 @@
 	position: relative;
 	font-family: "HouschkaProBold";
 }
-.skyback {
+/*.skyback {
 	height: 47vmin;
 	width: 100%;
 	background-color: #b9d6ef;
 	border-bottom: solid 0.6vmin #daecf1;
-	position: absolute;
-}
+	/*position: absolute;*/
+}*/
 .content {
 	width: 100vmin;
 	margin: 0 auto;
 }
 
 .sky {
-	height: 47vmin;
+	height: 47.7vmin;
 	background-color: #b9d6ef;
 	border-bottom: solid 0.6vmin #daecf1;
 }
+.clouds {
+	width: 100vmin;
+	margin: 0 auto;
+}
 .clouds img {
-	width: 100%;  
-	margin-left: -2.6vmin;
-    margin-top: -0.4vmin;
+	width: 100%;
+    /*margin-left: 0vmin;
+    margin-top: 0vmin;*/
 }
 .info {
-	margin-top: 3vmin;
+	margin-top: 3.2vmin;
 	text-align: center;
 }
 h1 {
 	font-size: 7.2vmin;
     text-transform: uppercase;
-    letter-spacing: 0.04vmin;
+    letter-spacing: 0.07vmin;
     text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.17);
 	color: #fefefe;
-	margin-left: -2.7vmin;
+	margin-left: 2.5vmin;
 }
 h2 {
 	font-size: 1.4vmin;
@@ -60,13 +64,13 @@ h2 {
     letter-spacing: 0.01vmin;
     font-family: "HouschkaProMedium";
     color: #266B97;
-    padding-top: 0.4vmin;
-    margin-left: -5.5vmin;
+    padding-top: 0.3vmin;
+    margin-left: -0.5vmin;
 }
 form {
-	margin: 0 auto;
-    padding-top: 1.9vmin
-    margin-left: -5.4vmin;
+	/*margin: 0 auto;*/
+    /*padding-top: 1.9vmin*/
+    margin-top: 1.8vmin;
 }
 .email {
 	font-size: 1.3vmin;
@@ -90,8 +94,8 @@ form {
 	color: #ffffff;
 	height:3.7vmin;
 	width: 9.3vmin;
-	margin-left: 0.7vmin;
-	padding-left: 0.1vmin;
+	margin-left: 0.5vmin;
+	/*padding-left: 0.1vmin;*/
 	background: url(images/button.gif) no-repeat ;
 	background-size: cover;
 	border: solid 1px #fbc641;
@@ -102,14 +106,14 @@ form {
 	height: 33.2vmin;
 	border-top: solid 0.9vmin #327dad;
 	background-color: #266b97;
-	margin-top: -0.15vmin;
+	/*margin-top: -0.0vmin;*/
 	position: relative;
 }
 
 .ship {
 	width: 4.9vmin;
-    top: -2.3vmin;
-    left: 28.5vmin;
+    top: -2.6vmin;
+    left: 30.5vmin;
     background-size: cover;
     position: absolute;
 }
@@ -118,19 +122,24 @@ form {
 }
 
 .ice {
-	width: 33.1vmin;
-    /*margin-top: -19.8vmin;
-    margin-left: 30.9vmin;*/
+	width: 100vmin;
+	margin: 0 auto;
 }
 .ice img {
-	margin-top: -19.8vmin;
-    margin-left: 30.9vmin;
-	width: 100%;
-
+	/*margin-top: -19.8vmin;
+    margin-left: 30.9vmin;*/
+	/*width: 100%;*/
+	width: 33.1vmin;
+    margin-top: -20vmin;
+    margin-left: 33.3vmin;
+}
+.crono { 
+	width: 100vmin;
+	margin: 0 auto;
 }
 .crono ul {
 	list-style: none;
-    margin-left: 32.7vmin;
+    margin-left: 35.1vmin;
     margin-top: -24.4vmin;
 }
 .crono li {

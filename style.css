@@ -16,17 +16,10 @@
 .container {
 	width: 100vw;
 	height: 100vh;
-	/*background-color: #266b97;*/
+	background-color: #266b97;
 	position: relative;
 	font-family: "HouschkaProBold";
 }
-/*.skyback {
-	height: 47vmin;
-	width: 100%;
-	background-color: #b9d6ef;
-	border-bottom: solid 0.6vmin #daecf1;
-	/*position: absolute;*/
-
 .content {
 	width: 100vmin;
 	margin: 0 auto;
@@ -39,16 +32,12 @@
 }
 .clouds {
 	width: 90.4vmin;
-	/*margin: 0 auto;*/
 }
 .clouds img {
 	width: 100%;
     margin-left: 0.5vmin;
-    /*margin-top: 0vmin;*/
 }
 .info {
-	/*width: 100vmin;
-	margin: 0 auto;*/
 	margin-top: 4vmin;
 	text-align: center;
 }
@@ -70,14 +59,11 @@ h2 {
     margin-left: -0.5vmin;
 }
 form {
-	/*margin: 0 auto;*/
-    /*padding-top: 1.9vmin*/
     margin-top: 2.5vmin;
 }
 .email {
 	font-size: 1.5vmin;
     font-family: "Arial";
-    /*letter-spacing: -0.04vmin;*/
     color: #808080;
     height: 4.6vmin;
     width: 30vmin;
@@ -92,12 +78,10 @@ form {
 	font-size: 1.7vmin;
 	font-family: "HouschkaProBold";
 	text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
-	/*letter-spacing: -0.03vmin;*/
 	color: #ffffff;
 	height:4.6vmin;
 	width: 12vmin;
 	margin-left: 1vmin;
-	/*padding-left: 0.1vmin;*/
 	background: url(images/button.gif) no-repeat ;
 	background-size: cover;
 	border: solid 1px #fbc641;
@@ -115,28 +99,25 @@ form {
 .ship {
 	width: 5.9vmin;
     top: -2.9vmin;
-    left: 37.7vmin;
+    left: 30%;
     background-size: cover;
     position: absolute;
 }
+.ship:hover .move-left{
+    transform: translate(-30vw,0);
+}
 .ship img {
 	width: 100%;
-
+	position: absolute;
+    transition: all 3s ease-in-out; /*ease-in-out - function 'begin & end slowly'*/
 }
 
-.ice {
-	/*width: 100vmin;
-	margin: 0 auto;*/
-}
 .ice img {
 	width: 41vmin;
     margin-top: -24.6vmin;
     margin-left: 29.6vmin;
 }
-.crono { 
-	/*width: 100vmin;
-	margin: 0 auto;*/
-}
+
 .crono ul {
 	list-style: none;
     margin-left: 31.8vmin;
@@ -169,6 +150,12 @@ form {
 	color: #f3f3f3;
 	margin-top: 0.6vmin;
 }
+
+
+
+
+			
+
 
 
 

@@ -33,37 +33,37 @@
 }
 
 .sky {
-	height: 47.7vmin;
+	height: 58.5vmin;
 	background-color: #b9d6ef;
 	border-bottom: solid 0.6vmin #daecf1;
 }
 .clouds {
-	/*width: 100vmin;
-	margin: 0 auto;*/
+	width: 90.4vmin;
+	/*margin: 0 auto;*/
 }
 .clouds img {
 	width: 100%;
-    /*margin-left: 0vmin;
-    margin-top: 0vmin;*/
+    margin-left: 0.5vmin;
+    /*margin-top: 0vmin;*/
 }
 .info {
 	/*width: 100vmin;
 	margin: 0 auto;*/
-	margin-top: 3.2vmin;
+	margin-top: 4vmin;
 	text-align: center;
 }
 h1 {
-	font-size: 7.2vmin;
+	font-size: 9vmin;
     text-transform: uppercase;
-    letter-spacing: 0.07vmin;
+    letter-spacing: 0.0vmin;
     text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.17);
 	color: #fefefe;
-	margin-left: 2.5vmin;
+	margin-left: 3vmin;
 }
 h2 {
-	font-size: 1.4vmin;
+	font-size: 1.7vmin;
     text-transform: uppercase;
-    letter-spacing: 0.01vmin;
+    letter-spacing: 0.02vmin;
     font-family: "HouschkaProMedium";
     color: #266B97;
     padding-top: 0.3vmin;
@@ -72,16 +72,16 @@ h2 {
 form {
 	/*margin: 0 auto;*/
     /*padding-top: 1.9vmin*/
-    margin-top: 1.8vmin;
+    margin-top: 2.5vmin;
 }
 .email {
-	font-size: 1.3vmin;
+	font-size: 1.5vmin;
     font-family: "Arial";
-    letter-spacing: -0.04vmin;
+    /*letter-spacing: -0.04vmin;*/
     color: #808080;
-    height: 3.7vmin;
-    width: 24.3vmin;
-    padding-left: 1vmin;
+    height: 4.6vmin;
+    width: 30vmin;
+    padding-left: 1.8vmin;
     border-radius: 4px;
 	background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
 	background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
@@ -89,34 +89,33 @@ form {
 	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
 }
 .btn {
-	font-size: 1.4vmin;
+	font-size: 1.7vmin;
 	font-family: "HouschkaProBold";
 	text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
-	letter-spacing: -0.03vmin;
+	/*letter-spacing: -0.03vmin;*/
 	color: #ffffff;
-	height:3.7vmin;
-	width: 9.3vmin;
-	margin-left: 0.5vmin;
+	height:4.6vmin;
+	width: 12vmin;
+	margin-left: 1vmin;
 	/*padding-left: 0.1vmin;*/
 	background: url(images/button.gif) no-repeat ;
 	background-size: cover;
 	border: solid 1px #fbc641;
-	border-radius: 2px;
+	border-radius: 4px;
 }
 
 .sea {
-	height: 33.2vmin;
-	border-top: solid 0.9vmin #327dad;
+	height: 41.5vmin;
+	border-top: solid 1vmin #327dad;
 	background-color: #266b97;
-	/*margin-top: -0.0vmin;*/
+	margin-top: -0.2vmin;
 	position: relative;
 }
 
 .ship {
-	
-	width: 4.9vmin;
-    top: -2.6vmin;
-    left: 30.5vmin;
+	width: 5.9vmin;
+    top: -2.9vmin;
+    left: 37.7vmin;
     background-size: cover;
     position: absolute;
 }
@@ -130,9 +129,9 @@ form {
 	margin: 0 auto;*/
 }
 .ice img {
-	width: 33.1vmin;
-    margin-top: -20vmin;
-    margin-left: 33.3vmin;
+	width: 41vmin;
+    margin-top: -24.6vmin;
+    margin-left: 29.6vmin;
 }
 .crono { 
 	/*width: 100vmin;
@@ -140,35 +139,35 @@ form {
 }
 .crono ul {
 	list-style: none;
-    margin-left: 35.1vmin;
-    margin-top: -24.4vmin;
+    margin-left: 31.8vmin;
+    margin-top: -30vmin;
 }
 .crono li {
 	display: inline-block;
 	text-align: center;
 }
 .hours {
-	margin: 0 3vmin 0 3.2vmin;
+	margin: 0 3.4vmin 0 4.2vmin;
 }
 .crono div {
-	font-size: 2.4vmin;
-	color: #266b97;
-	height: 7vmin;
-	width: 7vmin;
+	height: 8.7vmin;
+	width: 8.7vmin;
 	margin: 0 auto;
 	background-color: #b9d6ef;
 	border-radius: 50%;		
 }
 .crono span {
 	font-family: "HouschkaProMedium";
+	font-size: 3vmin;
+	color: #266b97;
 	display: inline-block;
-	padding-top: 2.1vmin;
+	padding-top: 2.7vmin;
 }
 .crono p {
-	font-size: 2.4vmin;
+	font-size: 3vmin;
 	text-transform: uppercase;
 	color: #f3f3f3;
-	margin-top: 0.5vmin;
+	margin-top: 0.6vmin;
 }
 
 
